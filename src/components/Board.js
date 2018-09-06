@@ -8,6 +8,7 @@ class Board extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      // these notes are not rendering
       notes: [
         {
           title: "Class Notes",
